@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	n := notation.SignerSignOptions{
+	n := notation.SignOptions{
 		SignatureMediaType: "application/cose",
 		ExpiryDuration:     10 * time.Hour,
 	}
